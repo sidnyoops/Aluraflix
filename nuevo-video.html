@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Video - ALURAFLIX</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="ALURAFLIX Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nuevo-video.html">Nuevo Video</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="nuevo-video">
+            <h2>CREAR NUEVO VIDEO</h2>
+            <p class="form-intro">FORMULARIO PARA AGREGAR NUEVO VIDEO</p>
+            <p class="form-hint">Completa todos los datos y considera las cuatro categorías mencionadas.</p>
+            <form id="formulario">
+                <input type="text" id="titulo" placeholder="Título" required>
+                <input type="text" id="categoria" placeholder="Categoría" required>
+                <input type="url" id="imagen" placeholder="URL de imagen" required>
+                <input type="url" id="video" placeholder="URL de video" required>
+                <textarea id="descripcion" placeholder="Descripción"></textarea>
+                <div class="form-buttons">
+                    <button type="submit" class="blue-button">Guardar</button>
+                    <button type="reset" class="blue-button">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img src="images/logo-footer.png" alt="ALURAFLIX Footer Logo">
+    </footer>
+
+    <script src="js/nuevo-video.js"></script>
+</body>
+</html>

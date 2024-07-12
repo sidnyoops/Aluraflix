@@ -1,0 +1,36 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "titulo": "Introducción a AluraFlix",
+            "categoria": "Frontend",
+            "imagen": "https://i.ytimg.com/vi/94yuIVdoevc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC4vOyTMbOEWeCiqupoKk3e_Nrlqw",
+            "video": "https://www.youtube.com/watch?v=VIDEO_ID",
+            "descripcion": "Una breve introducción a la plataforma AluraFlix."
+        },
+        {
+            "id": 2,
+            "titulo": "Backend avanzado con AluraFlix",
+            "categoria": "Backend",
+            "imagen": "https://media.licdn.com/dms/image/sync/D4E27AQHZ17kQikQ86Q/articleshare-shrink_800/0/1711305968972?e=2147483647&v=beta&t=qJDynWSsiwA-dGYtHz684TqVUc6NbwfFb2jdBkNeYds",
+            "video": "https://www.youtube.com/watch?v=VIDEO_ID",
+            "descripcion": "Conceptos avanzados de desarrollo backend utilizando AluraFlix."
+        },
+        {
+            "id": 3,
+            "titulo": "Innovación en AluraFlix",
+            "categoria": "Innovación",
+            "imagen": "https://media.licdn.com/dms/image/sync/D4E27AQHZ17kQikQ86Q/articleshare-shrink_800/0/1711305968972?e=2147483647&v=beta&t=qJDynWSsiwA-dGYtHz684TqVUc6NbwfFb2jdBkNeYds",
+            "video": "https://www.youtube.com/watch?v=VIDEO_ID",
+            "descripcion": "Cómo AluraFlix impulsa la innovación en el desarrollo de aplicaciones."
+        },
+        {
+            "id": 4,
+            "titulo": "Gestión de proyectos con AluraFlix",
+            "categoria": "Gestión",
+            "imagen": "https://media.licdn.com/dms/image/D4D22AQEs2UB_rCSuHg/feedshare-shrink_800/0/1693862899643?e=2147483647&v=beta&t=wQHNlkHEsXtVfFTdKAoeQ4BH2ZD9KQmalArbfPd3pPs",
+            "video": "https://www.youtube.com/watch?v=VIDEO_ID",
+            "descripcion": "Estrategias efectivas de gestión de proyectos utilizando AluraFlix."
+        }
+    ]
+}

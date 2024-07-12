@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALURAFLIX</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="ALURAFLIX Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="nuevo-video.html">Nuevo Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<!-- Banner -->
+<div class="banner">
+    <div class="banner-content">
+        <div class="text">
+            <h1>CHALLENGE REACT</h1>
+            <h2>Este challenge es una forma de aprendizaje. Es un mecanismo donde podrás comprometerte en la resolución de un problema para poder aplicar todos los conocimientos adquiridos en la formación React.</h2>
+        </div>
+        <img src="/images/banner-imagen.png" alt="Banner Image" class="banner-img">
+    </div>
+</div>
+</main>
+    
+<main>
+<!-- Nuevo Banner -->
+<div class="second-banner">
+    <h2>NUESTRAS CATEGORÍAS</h2>
+    <div class="category-buttons">
+        <button onclick="scrollToCategory('frontend')">Front End</button>
+        <button onclick="scrollToCategory('backend')">Back End</button>
+        <button onclick="scrollToCategory('innovacion')">Innovación</button>
+        <button onclick="scrollToCategory('gestion')">Gestión</button>
+    </div>
+</div>
+
+        <!-- Aquí van las categorías y cards -->
+    </main>
+    
+    <main>
+        <section class="categoria" data-categoria="frontend">
+            <h3>Frontend</h3>
+            <div class="cards"></div>
+        </section>
+
+        <section class="categoria" data-categoria="backend">
+            <h3>Backend</h3>
+            <div class="cards"></div>
+        </section>
+
+        <section class="categoria" data-categoria="innovacion">
+            <h3>Innovación</h3>
+            <div class="cards"></div>
+        </section>
+
+        <section class="categoria" data-categoria="gestion">
+            <h3>Gestión</h3>
+            <div class="cards"></div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="images/logo-footer.png" alt="ALURAFLIX Footer Logo">
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
